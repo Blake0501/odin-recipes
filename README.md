@@ -1,2 +1,2 @@
 # odin-recipes
-The first project in the odin project. This is a recipe websites to show my HTML and CSS skills currently. Made on 7/24/23
+The first project within the odin project curriculum. This is a simple recipe website to show my current HTML skill as of 7/24/23. By the end of the project I should have a website that looks very simple but has the functionality to show multiple different recipes and contain hyperlinks to move to the other recipes.
