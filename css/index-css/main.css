@@ -1,0 +1,32 @@
+ body {
+  margin: 0px;
+
+    background-color: #F1C27B;
+    text-align: center;
+    color: black;
+    font-family: system-ui
+}
+
+.mainTitle {
+    background-color: #A2CDB0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.smashBurger {
+    position: relative;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smashBurger-txt {
+    position: absolute;
+    top: 89%;
+    left: 35%;
+    color: white;
+}
