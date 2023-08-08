@@ -1,32 +1,55 @@
  body {
-  margin: 0px;
 
-    background-color: #F1C27B;
-    text-align: center;
+    background-color: #FFD89C;
     color: black;
     font-family: system-ui
 }
 
 .mainTitle {
+    margin: 0;
     background-color: #A2CDB0;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    display: block;
 }
 
-img {
+.container {
+    display: grid;
+    width: 1fr;
+    height: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    gap: 2.5rem;
+    margin: 5rem;
+}
+
+.card {
+    aspect-ratio: 1 / 1.75;
+}
+
+
+.card__content {
+    background-color: #F1C27B;
+    align-self: end;
+    margin: .5rem .5rem 2rem;
+    padding: .5rem;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .1);
+}
+
+.card__title {
+    font-size: 1.25rem;
+    line-height: 1.1;
+}
+
+.card__img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
-.smashBurger {
-    position: relative;
-    width: 500px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.smashBurger-txt {
-    position: absolute;
-    top: 89%;
-    left: 35%;
-    color: white;
+.card__description {
+    font-size: 1rem;
+    line-height: 1.4;
 }
