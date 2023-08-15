@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-size: larger;
+    background-color: #FFD89C;
+    color: black;
+    font-family: system-ui;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.title{
+    text-align: center;
+    font-size: 75px;
+    background-color: #A2CDB0;
+}
+
+.content{
+    padding: 15px;
+    
+}
